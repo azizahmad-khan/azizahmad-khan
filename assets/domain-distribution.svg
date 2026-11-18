@@ -1,0 +1,71 @@
+<svg width="495" height="230" viewBox="0 0 495 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70A5FD; }
+    .label { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A9B1D6; }
+    .val { font: 700 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #BF91F3; }
+  </style>
+  <rect width="495" height="230" rx="6" fill="#1A1B27" stroke="#2F334D" stroke-width="1"/>
+  
+  <!-- Header -->
+  <g transform="translate(25, 28)">
+    <circle cx="8" cy="-5" r="5" fill="#70A5FD"/>
+    <text x="20" y="0" class="header">Analytics &amp; Data Domain Specialization</text>
+  </g>
+
+  <!-- Horizontal Bars -->
+  <!-- 1. E-Commerce & Retail Analytics -->
+  <g transform="translate(25, 52)">
+    <text x="0" y="10" class="label">E-Commerce &amp; Retail Intelligence</text>
+    <rect x="200" y="0" width="200" height="12" rx="4" fill="#3B82F6"/>
+    <text x="410" y="10" class="val">Lead Domain</text>
+  </g>
+
+  <!-- 2. Financial & Business Analytics -->
+  <g transform="translate(25, 74)">
+    <text x="0" y="10" class="label">Financial Forecasting &amp; Revenue</text>
+    <rect x="200" y="0" width="180" height="12" rx="4" fill="#10B981"/>
+    <text x="410" y="10" class="val">Advanced</text>
+  </g>
+
+  <!-- 3. Exploratory Data Analysis & Cleaning -->
+  <g transform="translate(25, 96)">
+    <text x="0" y="10" class="label">Advanced EDA &amp; Data Cleaning</text>
+    <rect x="200" y="0" width="190" height="12" rx="4" fill="#F59E0B"/>
+    <text x="410" y="10" class="val">Core Mastery</text>
+  </g>
+
+  <!-- 4. Interactive Power BI & Dashboards -->
+  <g transform="translate(25, 118)">
+    <text x="0" y="10" class="label">Executive BI &amp; DAX Reporting</text>
+    <rect x="200" y="0" width="185" height="12" rx="4" fill="#06B6D4"/>
+    <text x="410" y="10" class="val">High Impact</text>
+  </g>
+
+  <!-- 5. Database & Dimensional Modeling -->
+  <g transform="translate(25, 140)">
+    <text x="0" y="10" class="label">Star / Snowflake Data Modeling</text>
+    <rect x="200" y="0" width="170" height="12" rx="4" fill="#8B5CF6"/>
+    <text x="410" y="10" class="val">Architectural</text>
+  </g>
+
+  <!-- 6. Customer & Churn Segmentation -->
+  <g transform="translate(25, 162)">
+    <text x="0" y="10" class="label">RFM &amp; Customer Lifetime Value</text>
+    <rect x="200" y="0" width="160" height="12" rx="4" fill="#2DD4BF"/>
+    <text x="410" y="10" class="val">Strategic</text>
+  </g>
+
+  <!-- 7. Predictive Machine Learning -->
+  <g transform="translate(25, 184)">
+    <text x="0" y="10" class="label">Predictive ML &amp; Regression Models</text>
+    <rect x="200" y="0" width="150" height="12" rx="4" fill="#EAB308"/>
+    <text x="410" y="10" class="val">Statistical</text>
+  </g>
+
+  <!-- 8. Supply Chain & Operations Analytics -->
+  <g transform="translate(25, 206)">
+    <text x="0" y="10" class="label">Supply Chain &amp; Inventory Telemetry</text>
+    <rect x="200" y="0" width="140" height="12" rx="4" fill="#EF4444"/>
+    <text x="410" y="10" class="val">Operational</text>
+  </g>
+</svg>
