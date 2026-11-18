@@ -1,0 +1,63 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 700 17px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70A5FD; }
+    .stat-label { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A9B1D6; }
+    .stat-value { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #BF91F3; }
+  </style>
+  <rect width="495" height="195" rx="6" fill="#1A1B27" stroke="#2F334D" stroke-width="1"/>
+  
+  <!-- Header -->
+  <g transform="translate(25, 32)">
+    <circle cx="8" cy="-5" r="5" fill="#70A5FD"/>
+    <text x="20" y="0" class="header">Aziz Ahmad's Analytics Telemetry</text>
+  </g>
+
+  <!-- Left Column -->
+  <g transform="translate(35, 70)">
+    <!-- Row 1 -->
+    <circle cx="4" cy="-4" r="3" fill="#38BDAE"/>
+    <text x="16" y="0" class="stat-label">Analytics Pipeline:</text>
+    <text x="155" y="0" class="stat-value">End-to-End ETL</text>
+
+    <!-- Row 2 -->
+    <circle cx="4" cy="26" r="3" fill="#70A5FD"/>
+    <text x="16" y="30" class="stat-label">Primary Stack:</text>
+    <text x="155" y="30" class="stat-value">Python &amp; SQL</text>
+
+    <!-- Row 3 -->
+    <circle cx="4" cy="56" r="3" fill="#E0AF68"/>
+    <text x="16" y="60" class="stat-label">BI &amp; Reporting:</text>
+    <text x="155" y="60" class="stat-value">Power BI &amp; Excel</text>
+
+    <!-- Row 4 -->
+    <circle cx="4" cy="86" r="3" fill="#F7768E"/>
+    <text x="16" y="90" class="stat-label">Analysis Integrity:</text>
+    <text x="155" y="90" class="stat-value">100% Verified</text>
+  </g>
+
+  <!-- Right Column Divider -->
+  <line x1="255" y1="55" x2="255" y2="170" stroke="#2F334D" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Right Column -->
+  <g transform="translate(275, 70)">
+    <!-- Row 1 -->
+    <circle cx="4" cy="-4" r="3" fill="#BF91F3"/>
+    <text x="16" y="0" class="stat-label">Executive Dashboards:</text>
+    <text x="165" y="0" class="stat-value">Interactive BI</text>
+
+    <!-- Row 2 -->
+    <circle cx="4" cy="26" r="3" fill="#38BDAE"/>
+    <text x="16" y="30" class="stat-label">Data Architecture:</text>
+    <text x="165" y="30" class="stat-value">Star &amp; Snowflake</text>
+
+    <!-- Row 3 -->
+    <circle cx="4" cy="56" r="3" fill="#70A5FD"/>
+    <text x="16" y="60" class="stat-label">Daily Streak Status:</text>
+    <text x="165" y="60" class="stat-value">Active 🔥</text>
+
+    <!-- Row 4 -->
+    <circle cx="4" cy="86" r="3" fill="#10B981"/>
+    <text x="16" y="90" class="stat-label">Engineering Focus:</text>
+    <text x="165" y="90" class="stat-value">Data Engineering</text>
+  </g>
+</svg>
