@@ -1,0 +1,49 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 700 17px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70A5FD; }
+    .lang-name { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A9B1D6; }
+    .lang-pct { font: 700 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #BF91F3; }
+  </style>
+  <rect width="495" height="195" rx="6" fill="#1A1B27" stroke="#2F334D" stroke-width="1"/>
+  
+  <!-- Header -->
+  <g transform="translate(25, 32)">
+    <circle cx="8" cy="-5" r="5" fill="#38BDAE"/>
+    <text x="20" y="0" class="header">Most Used Languages &amp; Stacks</text>
+  </g>
+
+  <!-- Progress Bar (Total width 435) -->
+  <g transform="translate(30, 52)">
+    <rect x="0" y="0" width="210" height="9" rx="4" fill="#3776AB"/>
+    <rect x="212" y="0" width="130" height="9" rx="4" fill="#336791"/>
+    <rect x="344" y="0" width="55" height="9" rx="4" fill="#F2C811"/>
+    <rect x="401" y="0" width="34" height="9" rx="4" fill="#217346"/>
+  </g>
+
+  <!-- Language Details Grid -->
+  <!-- Col 1 -->
+  <g transform="translate(35, 92)">
+    <!-- Python -->
+    <circle cx="6" cy="-4" r="5" fill="#3776AB"/>
+    <text x="20" y="0" class="lang-name">Python (Pandas, NumPy, ML)</text>
+    <text x="20" y="16" class="lang-pct">48.0%</text>
+
+    <!-- Power BI -->
+    <circle cx="6" cy="42" r="5" fill="#F2C811"/>
+    <text x="20" y="46" class="lang-name">Power BI &amp; DAX Modeling</text>
+    <text x="20" y="62" class="lang-pct">13.0%</text>
+  </g>
+
+  <!-- Col 2 -->
+  <g transform="translate(265, 92)">
+    <!-- SQL -->
+    <circle cx="6" cy="-4" r="5" fill="#336791"/>
+    <text x="20" y="0" class="lang-name">SQL &amp; PostgreSQL / MySQL</text>
+    <text x="20" y="16" class="lang-pct">31.0%</text>
+
+    <!-- Advanced Excel -->
+    <circle cx="6" cy="42" r="5" fill="#217346"/>
+    <text x="20" y="46" class="lang-name">Advanced Excel &amp; Financial Models</text>
+    <text x="20" y="62" class="lang-pct">8.0%</text>
+  </g>
+</svg>
